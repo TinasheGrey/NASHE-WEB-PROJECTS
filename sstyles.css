@@ -1,0 +1,122 @@
+.{
+    padding: 0px;
+    margin: 0px;
+}
+#container{
+    
+    width: 1200px;
+    border: 2px solid black;
+    font-family: Arial, Helvetica, sans-serif;
+}
+    #header{
+        background: darkgoldenrod;
+        width: 1200px;
+        height: 70px;
+        color: black;
+        font-size: 10px;
+        }
+    #nav{
+        background: darkblue;
+        width: 1200px;
+       
+    }
+            #nav ul{
+                list-style: none;
+            }
+            #nav ul li{
+                float: left;
+                padding: 15px 0px;
+                width: 193px; 
+                text-align: center; 
+            }
+            #nav ul li :hover {
+                background: greenyellow;
+                padding: 15px 54px;
+                color: indianred;   
+            }
+            #nav a{
+                color: white;
+            }
+            #nav a:link{
+                color: white;
+            }
+            #nav a :visited{
+                color: brown;
+            }
+            #nav a :hover{
+                color: mediumaquamarine;
+            }
+            #nav a  :active {
+                color: orange;
+            }
+    #middle{}
+        #leftArea{
+            width: 760px;
+            height: 550px;
+            float: left;
+            background-image: url(mudyoo.jpg);
+            background-repeat:repeat ;
+            border-bottom: 10px solid tomato;
+            border-bottom-style: groove;
+            border-right: 10px solid darkblue;
+            border-right-style: groove;
+        }
+            .post {
+                background:transparent;
+
+            }
+            .title {
+                color:white;
+                font-weight: bolder;
+                text-align: center;
+                background: black;
+                padding: 20px;
+            }
+            .description{
+                font-size: 20px;
+                font-style: italic;
+                text-align: center; 
+                color: black;
+                font-weight: bolder; 
+            }
+            .remarks{
+                text-align: left;
+                color: white;
+                font-weight: bolder;
+            }
+            .cool{
+                text-align: right;
+                text-decoration: darkmagenta;
+                color: white;
+                font-weight: bolder;
+            }
+            .order{
+                font-weight: bolder;
+                font-style: oblique;
+                text-align: center;
+            }
+            .welcome{
+                text-align: left;
+            
+            }
+            .here{
+                text-align: right;
+            }
+        #rightArea{
+            width: 400px;
+            height: 550px;
+            float: left;
+            border: 10px black solid;
+            border-style: groove;
+            text-align: center;
+            background-image: url(kumwa.jpg);
+        }
+
+
+    #footer{
+        background:grey;
+        width: 1200px;
+        height: 30px;
+        color: white;
+        
+    }

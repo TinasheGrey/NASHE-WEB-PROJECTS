@@ -1,0 +1,154 @@
+.{
+    padding: 0px;
+    margin: 0px;
+}
+#container{
+    
+    width: 1200px;
+    border: 2px solid black;
+    font-family: Arial, Helvetica, sans-serif;
+}
+    #header{
+        background: darkcyan;
+        width: 1200px;
+        height: 70px;
+        color: black;
+    }
+    #nav{
+        background: darkblue;
+        width: 1200px;
+       
+    }
+            #nav ul{
+                list-style: none;
+            }
+            #nav ul li{
+                float: left;
+                padding: 15px 0px;
+                width: 193px; 
+                text-align: center; 
+            }
+            #nav ul li :hover {
+                background: greenyellow;
+                padding: 15px 54px;
+                color: indianred;   
+            }
+            #nav a{
+                color: white;
+            }
+            #nav a:link{
+                color: white;
+            }
+            #nav a :visited{
+                color: brown;
+            }
+            #nav a :hover{
+                color: mediumaquamarine;
+            }
+            #nav a  :active {
+                color: orange;
+            }
+    #middle{}
+        #leftArea{
+            width: 760px;
+            height: 550px;
+            float: left;
+            background-image: url(lunch.jpeg);
+            background-repeat: space;
+            border-bottom: 10px solid tomato;
+            border-bottom-style: groove;
+            border-right: 10px solid darkblue;
+            border-right-style: groove;
+        }
+            .post {
+                background:transparent;
+
+            }
+            .title {
+                color:darkmagenta;
+                font-weight: bolder;
+                text-align: center;
+                background: black;
+                padding: 20px;
+            }
+            .description{
+                font-size: 20px;
+                font-style: italic;
+                text-align: center;  
+            }
+            .remarks{
+                text-align: left;
+            }
+            .cool{
+                text-align: right;
+                text-decoration: darkmagenta;
+            }
+            .order{
+                font-weight: bolder;
+                font-style: oblique;
+                text-align: center;
+            }
+            .welcome{
+                text-align: left;
+            
+            }
+            .here{
+                text-align: right;
+            }
+        #rightArea{
+            width: 380px;
+            height: 550px;
+            float: left;
+            border: 10px black solid;
+            border-style: groove;
+        }
+        form{
+            width:370px ;
+            padding: 10px 0px;
+            margin: 0px auto;
+            outline: none;
+        }
+        input[type = "text"], input[type= 'password']{
+            width:260px ;
+            height: 20px;
+            padding: 5px;
+            border: none;
+            border-bottom: 2px solid black;
+            background: #f1f1f1;
+        }
+        select{
+            padding: 5px;
+            width:260px ;
+            height: 30px;
+            background: #f1f1f1;
+        }
+        textarea{
+            resize: none;
+            border: 1px solid black;
+            width: 260px;
+            height: 20px;
+            padding: 5px;
+            background: #f1f1f1;
+        }
+        input[type="submit"]{
+            width: 280px;
+            padding: 5px;
+            background: brown;
+            color: white;
+            height: 30px;
+        }
+        input[type= 'text']:focus,input[type= 'password']:focus,select :focus {
+            background: lightskyblue;
+        }
+        input[type= 'text']:hover,input[type= 'password']:hover,select :hover {
+            background: limegreen;
+        }
+
+
+    #footer{
+        background:darkblue;
+        width: 1200px;
+        height: 30px;
+        color: white;
+        
+    }
